@@ -1,0 +1,111 @@
+*{    font-family: 'Open Sans', sans-serif;}
+
+#head{
+    color: rebeccapurple;
+    margin-left: 100px;
+}
+#main {
+
+    display: flex;
+    grid-gap: 20px;
+    justify-content: space-evenly;
+
+}
+
+#search{
+
+     justify-content: center;
+    margin-left: 400px;
+    margin-bottom: 30px;
+
+}
+
+input, button{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 25px;
+    outline: 0;
+}
+
+button{
+
+    width: 100px;
+    height: 45px;
+    font-size: 25px;
+    color: teal;
+    background-color: whitesmoke;
+}
+
+#daily{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    
+}
+ 
+#daily > div{
+    width: 140px;
+    /* border: 1px solid orange; */
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#daily  h2 {
+   text-align: center; 
+    color: orange;
+}
+#futuretemps{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+#futuretemps > span:nth-child(1){
+    font-weight: bold;
+   float: right;
+}
+#daily  img {
+   margin-left: 20px;
+
+}
+#wall{
+    width: 50%;
+ 
+}
+
+#wall  h1 {
+   text-align: center;
+    color: rgb(150, 117, 75);
+}
+
+.curr_weather{
+    /* border: 1px solid red; */
+  
+}
+
+.big_icon {
+  /* border: 1px solid green; */
+   width: 50%;
+   float: right;
+   color: teal;
+
+}
+.big_icon > img{
+    /* border: 1px solid rebeccapurple; */
+  margin-left: 10%;
+}
+
+.big_icon > h2{
+ text-align: center;
+ font-size: 30px;
+}
+.big_icon > p{
+    font-size: 30px;
+    line-height: 0;
+}
+
+.rest_div{
+    font-size: 20px;
+    color: teal;
+    /* border: 1px solid rebeccapurple; */
+    padding-left: 40px;
+}

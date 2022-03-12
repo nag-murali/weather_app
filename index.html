@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather_App</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/28e3ee16ef.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+      <h1 id="head">WEATHER INFO</h1>
+    <div id="search">
+        <input type="text" placeholder="Search By City">
+        <button onclick="getWeather()">search</button>
+    </div>
+
+    <div id="main">
+    
+        <div id="wall"></div>
+
+        <iframe id="map"
+        width="600"
+        height="400"
+        style="border:0"
+        loading="lazy"
+        allowfullscreen
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDC1pK-ehrh6rb_p-of308lYLFYYpKrbH4&q=kakinada">
+      </iframe>
+
+    </div>
+
+    <div id="daily"></div>
+   
+</body>
+</html>
+
+<script src="index.js" >
+</script>
