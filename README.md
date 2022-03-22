@@ -1,5 +1,5 @@
 # weatherw_app
-You can get the current and  weekly weather forecast and map of any city of India from  this application.
+You can get the current and  weekly weather forecast and map of any city  from  this application.
 
 # Tech Stacks:
 1. HTML
